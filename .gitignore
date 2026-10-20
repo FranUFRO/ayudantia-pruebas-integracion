@@ -1,0 +1,7 @@
+node_modules/
+coverage/
+database/*.db
+database/*.db-journal
+database/*.db-shm
+database/*.db-wal
+.env

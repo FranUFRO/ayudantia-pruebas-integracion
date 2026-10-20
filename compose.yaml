@@ -1,0 +1,7 @@
+services:
+  tests:
+    build:
+      context: .
+    environment:
+      DATABASE_PATH: /tmp/reservations-test.db
+    command: npm test
